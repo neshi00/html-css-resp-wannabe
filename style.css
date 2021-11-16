@@ -80,13 +80,13 @@ img {
 
 /* mobile------------------- */
 
-@media screen and (max-width: 575px) {
+@media screen and (max-width: 576px) {
 
   .container {
     width: 100%;
-    max-width: 575px;
+    max-width: 576px;
     background-color: #f2f2c9;
-    padding: 20px 0;
+    padding: 20px 15px;
   }
 
   .row {
@@ -97,8 +97,36 @@ img {
   #lezioni .row>.left,
   #lezioni .row>.right {
     width: 100%;
-    padding: 20px 0;
+    padding: 20px 15px;
   }
+
+  /* fine blocco lezioni */
+
+  #steps .row>.left,
+  #steps .row>.central,
+  #steps .row>.right {
+    width: 100%;
+    padding: 20px 15px;
+  }
+
+  /* fine blocco steps */
+
+  #why .row>.first,
+  #why .row>.second,
+  #why .row>.third,
+  #why h1 {
+    background-color: #f2f2c9;
+    margin-top: 0;
+    padding: 20px 15px;
+  }
+
+  /* fine blocco why */
+
+
+
+
+
+
 
 
 
