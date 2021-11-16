@@ -78,6 +78,88 @@ img {
   clear: both;
 }
 
+
+/* tablet ---------------------- */
+
+@media screen and (min-width: 576px) and (max-width: 1199px) {
+
+  .container {
+    width: 100%;
+    max-width: 1199px;
+  }
+
+  .container .row {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+  }
+
+  #lezioni .row>.left,
+  #lezioni .row>.right {
+    width: calc(100% / 3);
+    background-color: red;
+    align-content: center;
+  }
+
+  .container h1 {
+    width: calc(100% / 3);
+    background-color: red;
+  }
+
+  /* #lezioni .row {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  #steps .row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  } */
+
+  #steps .row>.left,
+  #steps .row>.central,
+  #steps .row>.right {
+    width: calc(100% / 3);
+    background-color: cornflowerblue;
+  }
+
+
+  #why .row>.first,
+  #why .row>.second,
+  #why .row>.third {
+    width: calc(100% / 3);
+    background-color: coral;
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+}
+
+
+
+
+
+
+
+
 /* mobile------------------- */
 
 @media screen and (max-width: 576px) {
